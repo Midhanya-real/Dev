@@ -1,0 +1,15 @@
+{
+  "name": "mihan/image-service",
+  "require": {
+    "ext-json": "*",
+    "ext-pdo": "*",
+    "ext-http": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "./src",
+      "Core\\": "./core",
+      "src\\": "./src"
+    }
+  }
+}
